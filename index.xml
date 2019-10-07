@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Realyao</title>
+    <link>https://realyao.github.io/</link>
+    <description>Recent content on Realyao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 06 Oct 2019 22:41:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://realyao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>第一篇博客记录测试</title>
+      <link>https://realyao.github.io/post/firstblog/</link>
+      <pubDate>Sun, 06 Oct 2019 22:41:17 +0800</pubDate>
+      
+      <guid>https://realyao.github.io/post/firstblog/</guid>
+      <description>第一篇blog test
+主要记录博客的搭建和文章创建 以及一些git问题吧。
+Hugo安装 基于go语言，可以在go环境下自定义安装，或者下载编译后的二进制文件。
+如何看hugo安装成没成功，打开cmd，输入hugo version
+主题可以clone下来，修改config完成配置。
+开始 启动博客命令，输入 hugo server -t m10c &amp;ndash;buildDrafts //这里指定主题启动
+文章撰写 进入站点根目录blog下，执行命令：
+$ hugo new post/test.md
+执行后，会自动在content/post下生成 test.md文件，打开可编辑内容，ps.文件头部的draft要改为false，这样部署后才能看到文章。
+vim,vscode,sublime都挺好用的
+可访问：http://localhost:1313/ 查看效果
+部署github pages上 进入站点根目录下，执行：
+$ hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;地址&amp;rdquo; &amp;ndash;buildDrafts
+执行后，站点根目录下会生成一个 public 文件夹，该文件下的内容即Hugo生成的整个静态网站。每次更新内容后，将 pubilc 目录里所有文件 push到GitHub即可。
+关于push的一些方法 首次使用的时候要执行以下命令：
+$ cd public
+$ git remote add origin https://github.com/yourname/yourname.github.io.git (换成自己的)　将本地目录链接到远程服务器的代码仓库
+$ git add -A
+$ git commit -m &amp;ldquo;first commit&amp;rdquo;
+$ git push -u origin master</description>
+    </item>
+    
+  </channel>
+</rss>
