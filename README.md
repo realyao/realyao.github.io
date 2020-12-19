@@ -1,6 +1,6 @@
 # Realyao 托管主页
 
-### 访问[realyao.me](https://realyao.me)，powered by github page.
+### 访问主页[realyao.me](https://realyao.me)，powered by github page.
 
 
 如果国内访问GitHub速度较慢，该项目同时部署在[realyao.gitee.io](https://realyao.gitee.io)
