@@ -1,7 +1,7 @@
 
 # Realyao
 
-### Realyao个人网站代码仓库，[戳](https://realyao.gitee.io)图片前往
+### Realyao个人网站代码仓库，[戳](https://realyao.gitee.io)图片前往网站首页
 <br/>
 <p align="center">    
     <a href="https://realyao.github.io" target="_blank">
